@@ -12,7 +12,7 @@
 <header>
     <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
     <div class="logo">
-        <img src="" alt="Logo Website"width="200" height="200">
+        <img src="" alt="Logo Website" width="200" height="200">
     </div>
 
     <div class="auth-container">
@@ -36,55 +36,54 @@
 
 <main>
     <section id="home">
-        <img src="eyy.jpg" alt="Deskripsi Gambar" width="300" height="300">
-        <p>Save Time, Save Energy - Use Our Laundry Services!.</p>
+        <img src="" alt="Deskripsi Gambar" width="300" height="300">
+        <p>Jangan Ragu Lagi! Bergabunglah dengan kami sekarang dan temukan sponsor yang tepat untuk mewujudkan impianmu!.</p>
         <div class="laundry-container">
             <div class="laundry-box" data-lokasi="Lokasi 1" data-whatsapp="+62 123456789">
-                <img src="path/to/logo1.png" alt="Laundry 1">
-                <h3>Laundry 1</h3>
-                <p>Deskripsi Laundry 1</p>
+                <img src="logo.jpg" alt="GEPREK BENSU">
+                <h3>GEPREK BENSU</h3>
                 <div class="laundry-detail-box">
-                    <p>Lokasi: Lokasi 1</p>
+                    <p>📍 <a href="https://maps.app.goo.gl/2dRPRcXUZrVM7cru7" target="_blank">Ruko Grand Suhat, Jl. Soekarno Hatta No.6, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</a></p>
                     <p>WhatsApp: +62 123456789</p>
                 </div>
             </div>
             <div class="laundry-box" data-lokasi="Lokasi 2" data-whatsapp="+62 123456789">
-                <img src="path/to/logo2.png" alt="Laundry 2">
-                <h3>Laundry 2</h3>
-                <p>Deskripsi Laundry 2</p>
+                <img src="sing.jpg" alt="GEPREK BENSU">
+                <h3>BOLU MALANG SINGOSARI</h3>
                 <div class="laundry-detail-box">
-                    <p>Lokasi: Lokasi 2</p>
+                    <p>📍 <a href="https://maps.app.goo.gl/y8GXQ235xQ9qusDE6" target="_blank">Jl. Soekarno Hatta No.30 kav 3, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</a></p>
                     <p>WhatsApp: +62 123456789</p>
                 </div>
             </div>
-            <div class="laundry-box" data-lokasi="Lokasi 3" data-whatsapp="+62 123456789">
-                <img src="path/to/logo3.png" alt="Laundry 3">
-                <h3>Laundry 3</h3>
-                <p>Deskripsi Laundry 3</p>
+            <div class="laundry-box" data-lokasi="Lokasi 2" data-whatsapp="+62 123456789">
+                <img src="baik.jpg" alt="GEPREK BENSU">
+                <h3>AYAM GORENG NELONGSO</h3>
                 <div class="laundry-detail-box">
-                    <p>Lokasi: Lokasi 3</p>
+                    <p>📍 <a href="https://maps.app.goo.gl/oSHNdRYrKfKnRguu8" target="_blank">Jl. Raya Tlogomas No.31, Tlogomas, Kec. Lowokwaru, Kota Malang, Jawa Timur 65144</a></p>
                     <p>WhatsApp: +62 123456789</p>
                 </div>
             </div>
             <div class="laundry-box" data-lokasi="Lokasi 4" data-whatsapp="+62 123456789">
-                <img src="path/to/logo4.png" alt="Laundry 4">
-                <h3>Laundry 4</h3>
-                <p>Deskripsi Laundry 4</p>
+                <img src="images-removebg-preview.png" alt="Laundry 4">
+                <h3>LALAPAN CAK QODIR</h3>
                 <div class="laundry-detail-box">
-                    <p>Lokasi: Lokasi 4</p>
+                    <p>📍 <a href="https://maps.app.goo.gl/Hc9eHyQJpX9HdhQt9" target="_blank">Jl. Tirto Utomo No.1, Dusun Rambaan, Landungsari, Kec. Dau, Kota Malang, Jawa Timur 65151</a></p>
                     <p>WhatsApp: +62 123456789</p>
                 </div>
             </div>
-            <div class="laundry-box" data-lokasi="Lokasi 5" data-whatsapp="+62 123456789">
-                <img src="path/to/logo5.png" alt="Laundry 5">
-                <h3>Laundry 5</h3>
-                <p>Deskripsi Laundry 5</p>
+            <div class="laundry-box" data-lokasi="Lokasi 2" data-whatsapp="+62 123456789">
+                <img src="Tanpa 2.jpg" alt="Laundry 5">
+                <h3>GEPREK KAK ROSE</h3>
                 <div class="laundry-detail-box">
-                    <p>Lokasi: Lokasi 5</p>
+                    <p>📍 <a href="https://maps.app.goo.gl/sb7xgr5VKJ3SA2DN6" target="_blank">Jl. MT. Haryono No.1, Dinoyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145</a></p>
                     <p>WhatsApp: +62 123456789</p>
                 </div>
             </div>
         </div>
+        <div class="join-now-container">
+            <button id="joinNowButton" onclick="showJoinNow()">Join Now</button>
+        </div>
+
     </section>
     <section id="about">
         <h2>Tentang Kami</h2>
@@ -104,6 +103,7 @@
             <input type="password" id="loginPassword" name="loginPassword" required>
             <button type="submit">Login</button>
         </form>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
         <p>Belum punya akun? <a href="javascript:void(0)" onclick="showSignup()">Daftar</a></p>
     </div>
 </div>
@@ -123,12 +123,74 @@
             <p class="password-hint">Password must be at least 6 characters</p>
             <button type="submit">Sign Up</button>
         </form>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </div>
+</div>
+
+<!-- Join Now Modal -->
+<div id="joinNowModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('joinNowModal')">&times;</span>
+        <h2>Join Now</h2>
+        <form id="joinNowForm">
+            <label for="joinName">Nama:</label>
+            <input type="text" id="joinName" name="joinName" required>
+            <label for="joinEmail">Email:</label>
+            <input type="email" id="joinEmail" name="joinEmail" required>
+            <button type="submit">Join Now</button>
+        </form>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
     </div>
 </div>
 
 <footer>
     <p>&copy; 2024 Website Sponsorship. Semua Hak Dilindungi.</p>
 </footer>
+
+<script>
+    function toggleMenu() {
+        const sidebar = document.getElementById("sidebar");
+        if (sidebar.style.width === "250px") {
+            sidebar.style.width = "0";
+        } else {
+            sidebar.style.width = "250px";
+        }
+    }
+
+    function showLogin() {
+        document.getElementById("loginModal").style.display = "block";
+    }
+
+    function showSignup() {
+        document.getElementById("signupModal").style.display = "block";
+    }
+
+    function showJoinNow() {
+        document.getElementById("joinNowModal").style.display = "block";
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target.className === "modal") {
+            event.target.style.display = "none";
+        }
+    }
+
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        console.log('ID: ' + profile.getId());
+        console.log('Name: ' + profile.getName());
+        console.log('Image URL: ' + profile.getImageUrl());
+        console.log('Email: ' + profile.getEmail());
+    }
+</script>
+
+</body>
+</html>
+
 
 <script>
     function toggleMenu() {
@@ -209,13 +271,14 @@
     }
 
     header {
-        background: #5c6bc0;
-        color: black;
-        padding: 10px 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    background: linear-gradient(to right, rgba(92, 107, 192, 0.5), rgba(92, 107, 192, 0.2));
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
     .menu-icon {
         cursor: pointer;
@@ -226,48 +289,63 @@
         font-size: 24px;
     }
 
-    .auth-container button {
-        background-color: transparent;
-        border: none;
-        color: white;
-        cursor: pointer;
-        margin-left: 10px;
-        padding: 5px 10px;
-        transition: background-color 0.3s, color 0.3s;
-    }
+   .auth-container button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Tambahkan transition untuk efek smooth */
+    border-radius: 20px; /* Membuat sudut tombol menjadi lebih lembut */
+}
 
-    .auth-container button:hover {
-        background-color: #ffcdd2;
-        color: #ec407a;
-    }
+.auth-container button:hover {
+    background-color: rgba(0, 86, 179, 0.8); /* Menambahkan transparansi pada warna latar belakang */
+    color: white; /* Ubah warna teks menjadi putih saat tombol di-hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Memberikan efek bayangan saat tombol di-hover */
+}
+
+.auth-container button.login:hover,
+.auth-container button.signup:hover {
+    background-color: #ffcdd2; /* Ubah warna latar belakang saat tombol di-hover */
+    color: #ec407a; /* Ubah warna teks saat tombol di-hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Memberikan efek bayangan saat tombol di-hover */
+}
+
+
 
     .sidebar {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #5c6bc0;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 50px;
-        display: flex;
-        flex-direction: column;
-    }
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #ec407a, #ba68c8, #90caf9); /* Gradien tanpa transparansi */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
 
-    .sidebar a {
-        padding: 10px 15px;
-        text-decoration: none;
-        font-size: 20px;
-        color: black;
-        display: block;
-        transition: 0.3s;
-    }
 
-    .sidebar a:hover {
-        background-color: #ffffff;
-    }
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #ffffff;
+    color: #5c6bc0; /* Ubah warna teks saat dihover */
+}
+
+
 
     .sidebar .closebtn {
         position: absolute;
@@ -317,7 +395,7 @@
 
 
     #home {
-        background: url('bg.jpg') no-repeat center center;
+        background: url('bg2.jpg') no-repeat center center;
         background-size: cover;
         text-align: center;
         padding: 30px 20px;
@@ -333,29 +411,36 @@
     }
 
     .laundry-box {
-        background: #29b6f6;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        padding: 15px;
-        width: 100%;
-        max-width: 200px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        text-align: center;
-        cursor: pointer;
-        transition: transform 0.3s;
-        position: relative;
-    }
+    background-image: linear-gradient(to bottom right, rgba(255, 102, 153, 0.7), rgba(102, 255, 153, 0.7));
+    /* Gradient dari atas kiri ke bawah kanan */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
     .laundry-box:hover {
         transform: scale(1.05);
     }
 
     .laundry-box img {
-        width: 50px;
-        height: 50px;
-        object-fit: cover;
-        margin-bottom: 10px;
-    }
+    width: 100%;
+    height: auto; /* Menyesuaikan tinggi gambar dengan lebar kotak */
+    object-fit: cover; /* Memastikan gambar memenuhi kotak tanpa merubah rasio aspek */
+    margin-bottom: 10px;
+}
 
     .laundry-box h3 {
         margin: 10px 5px;
@@ -368,20 +453,30 @@
     }
 
     .laundry-detail-box {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(255, 255, 255, 0.8);
-        display: none; /* Initially hidden */
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 10px;
-        border-radius: 10px;
-        height: 100px;
-        box-sizing: border-box;
-    }
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8); /* Menjaga transparansi */
+    display: flex; /* Mengubah dari none ke flex */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100px;
+    box-sizing: border-box;
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+}
+
+.laundry-detail-box p:first-child {
+    order: 2; /* Mengubah urutan elemen pertama ke posisi kedua */
+}
+
+.laundry-detail-box p:last-child {
+    order: 1; /* Mengubah urutan elemen terakhir ke posisi pertama */
+}
+
 
     #about {
     background: #f4f4f4;
@@ -401,11 +496,13 @@
 
 
     footer {
-        background: #5c6bc0;
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-    }
+    background: linear-gradient(to right, rgba(92, 107, 192, 0.5), rgba(92, 107, 192, 0.2));
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
     .modal {
         display: none;
@@ -482,6 +579,27 @@
     .modal-content button:hover {
         background-color: #0056b3; /* Darker blue on hover */
     }
+    .join-now-container {
+    text-align: center;
+    margin-top: 40px; /* Menambahkan jarak dari box di atasnya */
+}
+
+#joinNowButton {
+    background: linear-gradient(90deg, #ff8c00, #ffb700); /* Gradien warna */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#joinNowButton:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 
     .password-hint {
         font-size: 12px;
